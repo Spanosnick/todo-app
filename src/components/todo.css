@@ -1,0 +1,40 @@
+.todocomp{
+    border: 1px solid black;
+    border-radius: 2em;
+    display:  block;
+    flex-direction: row;
+    width:fit-content;
+    padding: 2em;
+    margin: .5em;
+    background-color: rgb(236, 219, 59);
+    border: none;
+    box-sizing: border-box;
+}
+li{
+    font-weight: 700;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.checkbtn{
+    margin:.3em 1em;
+    margin-left: .8em;
+    background-color: rgb(6, 173, 6);
+    color: aliceblue;
+    padding: .3em;
+    border: none;
+    border-radius: .5em;
+   
+}
+
+.trashbtn{
+    color: white;
+    background-color: rgb(233, 14, 14);
+    border: none;
+    border-radius: .5em;
+    padding: .5em;
+}
+.completed{
+    opacity: 0.5;
+    text-decoration:line-through;
+}

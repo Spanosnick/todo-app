@@ -1,0 +1,31 @@
+
+form{
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
+form>input{
+    border-radius: 1em;
+    border: none;  
+    padding: .8em;
+    
+}
+
+form>button{
+    margin: 1em;
+    border-radius: 1em;
+    padding: .5em;
+    background: rgb(226, 124, 22);
+    border: none;  
+    cursor: pointer;
+}
+
+form>select{
+    background-color: rgb(243, 239, 22);
+    border-radius: 1em;
+    border: none;
+    margin: .5em auto;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
