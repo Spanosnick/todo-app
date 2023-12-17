@@ -1,5 +1,5 @@
-import react from "react";
 import './todo.css'
+import {FaStar, FaHeart, FaTrash, FaCheck} from 'react-icons/fa';
 const Todo=({text, todo,todos,setTodos})=>{
 
 
@@ -21,13 +21,13 @@ const Todo=({text, todo,todos,setTodos})=>{
 
     return(
         <div className={`todocomp ${todo.completed?"completed":''}`}>
-            <li className={`todo-item ${todo.completed?"completed":''}`} >{text}</li>
+            <h3 className={`todo-item ${todo.completed?"completed":''}`} >{text}</h3>
             <button onClick={completeHandler} className='checkbtn'>
-                <i className="fas fa-check"></i>
+               <FaCheck/>
             </button>
 
             <button onClick={deleteHandler} className='trashbtn'> 
-                <i className="fas fa-trash"></i>
+                <FaTrash/>
             </button>
 
             

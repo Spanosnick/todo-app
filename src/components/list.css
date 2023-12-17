@@ -1,7 +1,8 @@
 .todo-list{
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
+    justify-content: start;
 }

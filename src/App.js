@@ -1,5 +1,4 @@
 import React,{ useState,useEffect } from 'react';
-import ReactDOM from 'react-dom';
 import './components/app.css'
 import Form from './components/Form';
 import List from './components/List';

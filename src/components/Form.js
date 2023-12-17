@@ -1,6 +1,6 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 import './form.css'
+import {FaPlus} from "react-icons/fa";
 
 function Form ({setInputText,inputText,todos,setTodos,setStatus}){
 
@@ -21,8 +21,8 @@ const statusHandler=(e)=>{
         return(
             <form>
                 <input onChange={textHandler} value={inputText} type="text"/>
-                <button onClick={submitHandler} type="submit"><i className="fas fa-plus-circle "></i></button>
-                <select name="todos" onChange={statusHandler}>
+                <button onClick={submitHandler} type="submit"><FaPlus className={'addIcon'}/> </button>
+                <select className={'custom-select'} name="todos" onChange={statusHandler}>
                     <option value="all">All</option>
                     <option value="completed">Completed</option>
                     <option value="uncompleted">Uncompleted</option>
